@@ -4,7 +4,7 @@ from typing import List, Union
 class CommentsRequest(BaseModel):
     comments: Union[str, List[str]] = Field(
         ...,
-        example=[
+        json_schema_extra=[
             "Мне понравилось видео!",
             "Это было ужасно, не делай так больше."
         ]
