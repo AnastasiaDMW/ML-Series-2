@@ -10,7 +10,7 @@ API позволяет:
 - Получать сводку положительных и отрицательных отзывов
 
 ## **Запуск проекта**
-### 1️⃣ Клонировать репозиторий
+### Клонировать репозиторий
 ```
 git clone https://github.com/AnastasiaDMW/ML-Series-2.git
 ```
@@ -86,3 +86,4 @@ POST http://127.0.0.1:8000/api/analyze/file
 - ReDoc → http://127.0.0.1:8000/redoc<br><br><br>
 
 Автор: <b>*AnastasiaDMW*</b>
+
